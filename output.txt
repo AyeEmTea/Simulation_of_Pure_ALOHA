@@ -1,0 +1,262 @@
+Initial source at t =  4309
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values =  D0 D1 D2
+	 Source =  E ::  Values =  E0 E1 E2
+Initial Dest 
+Current arrived Packets
+E0
+Final source at t =  4309
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values =  D0 D1 D2
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0
+----------------------------------------------------------------------------------------------------
+Initial source at t =  5763
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values =  D0 D1 D2
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0
+Current arrived Packets
+D0
+Final source at t =  5763
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values =  D1 D2
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0
+----------------------------------------------------------------------------------------------------
+Initial source at t =  6363
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values =  D1 D2
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0
+Current arrived Packets
+D1
+Final source at t =  6363
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values =  D2
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1
+----------------------------------------------------------------------------------------------------
+Initial source at t =  7526
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values =  D2
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1
+Current arrived Packets
+D2
+Final source at t =  7526
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2
+----------------------------------------------------------------------------------------------------
+Initial source at t =  10872
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B0 B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2
+Current arrived Packets
+B0
+Final source at t =  10872
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0
+----------------------------------------------------------------------------------------------------
+Initial source at t =  12143
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B1 B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0
+Current arrived Packets
+B1
+Final source at t =  12143
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0 B1
+----------------------------------------------------------------------------------------------------
+Initial source at t =  16370
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values =  C0 C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0 B1
+Current arrived Packets
+C0
+Final source at t =  16370
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values =  C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0 B1 C0
+----------------------------------------------------------------------------------------------------
+Initial source at t =  17102
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values =  C1 C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0 B1 C0
+Current arrived Packets
+C1
+Final source at t =  17102
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values =  C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1
+----------------------------------------------------------------------------------------------------
+Initial source at t =  17801
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values =  C2
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0 B1 C0 C1
+Current arrived Packets
+C2
+Final source at t =  17801
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2
+----------------------------------------------------------------------------------------------------
+Initial source at t =  20013
+	 Source =  A ::  Values =  A0 A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2
+Current arrived Packets
+A0
+Final source at t =  20013
+	 Source =  A ::  Values =  A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0
+----------------------------------------------------------------------------------------------------
+Initial source at t =  21377
+	 Source =  A ::  Values =  A1 A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0
+Current arrived Packets
+A1
+Final source at t =  21377
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1
+----------------------------------------------------------------------------------------------------
+Initial source at t =  24086
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values =  B2
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1
+Current arrived Packets
+B2
+Final source at t =  24086
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values = 
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1 B2
+----------------------------------------------------------------------------------------------------
+Initial source at t =  25826
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values = 
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E1 E2
+Initial Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1 B2
+Current arrived Packets
+E1
+Final source at t =  25826
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values = 
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E2
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1 B2 E1
+----------------------------------------------------------------------------------------------------
+Initial source at t =  26697
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values = 
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values =  E2
+Initial Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1 B2 E1
+Current arrived Packets
+E2
+Final source at t =  26697
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values = 
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values = 
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1 B2 E1 E2
+----------------------------------------------------------------------------------------------------
+Initial source at t =  31207
+	 Source =  A ::  Values =  A2
+	 Source =  B ::  Values = 
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values = 
+Initial Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1 B2 E1 E2
+Current arrived Packets
+A2
+Final source at t =  31207
+	 Source =  A ::  Values = 
+	 Source =  B ::  Values = 
+	 Source =  C ::  Values = 
+	 Source =  D ::  Values = 
+	 Source =  E ::  Values = 
+Final Dest  E0 D0 D1 D2 B0 B1 C0 C1 C2 A0 A1 B2 E1 E2 A2
+----------------------------------------------------------------------------------------------------
+Total time taken =  31208
+Total number of frame sent =  15
+For an highly efficient system total time taken should have been 1500
+Efficiency (in %) =  6.088182517303255
+
+
+*Note that the time is in unit where we can define unit to be as second or millisecond whatever we want
